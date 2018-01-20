@@ -94,3 +94,7 @@ def winner(board)
   end
   game_winner
 end
+
+def play(board)
+  
+end
