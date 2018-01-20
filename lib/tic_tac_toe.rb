@@ -66,3 +66,11 @@ def won?(board)
   end
 false
 end
+
+def full?(board)
+  all_full = board.all? do |position|
+    position == "X" || position == "O"
+  end
+  all_full
+end
+
